@@ -1,0 +1,43 @@
+:root {
+  --color-bg: #121212;
+  --color-bg-secondary: #181818;
+  --color-accent: #5C6BC0;
+  --color-text: #FFFFFF;
+  --color-text-secondary: #A0A0A0;
+
+  --font-main: 'Segoe UI', sans-serif;
+  --border-radius: 8px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-main);
+  height: 100vh;
+}
+
+.app-container{
+  
+display: flex;
+
+height: 100vh;
+
+}
+.sidebar{
+width: 150px;
+background-color: #5C6BC0;
+}
+.main-content{
+
+  flex: 1;
+
+  background-color: #181818;
+
+
+}
